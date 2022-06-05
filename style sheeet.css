@@ -55,5 +55,16 @@
   p1{color: rgb(243, 224, 50);}
 
 a:visited {
-		      color: red; }
+  color:green;
+}
+
+
+a:hover {
+  color: orangered;
+}
+
+
+a:active {
+  color: blue;
+}
   </style>
