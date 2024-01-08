@@ -67,4 +67,31 @@ a:hover {
 a:active {
   color: blue;
 }
+
+#chat-button {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: #0e1113;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 15px 20px;
+      cursor: pointer;
+      z-index: 999;
+      animation: notification-blink 2s 5;
+    }
+    @keyframes notification-blink {
+      0% { background-color: #0e1113; }
+      50% { background-color: red; }
+      100% { background-color: #0e1113; }
+    }
+    /* Hide the chatbot initially */
+    #chatbot-dialogflow {
+      display: none;
+      position: fixed;
+      top: 30%;
+      left: 75%;
+      z-index: 998;
+    }
   </style>
